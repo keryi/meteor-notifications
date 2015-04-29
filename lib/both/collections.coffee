@@ -25,6 +25,5 @@ Schemas.Notifications = new SimpleSchema
 
   ownerId:
     type: String
-    # regEx: SimpleSchema.RegEx.Id
 
 Notifications.attachSchema Schemas.Notifications
