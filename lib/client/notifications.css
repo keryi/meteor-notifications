@@ -1,0 +1,28 @@
+.notif-warn {
+  background-color: #fbfebe;
+}
+
+.notif-success {
+  background-color: #befec2;
+}
+
+.notif-error {
+  background-color: #febebe;
+}
+
+.notif-info {
+  background-color: #befefd;
+}
+
+.modal-body.notif-modal-body {
+  padding: 0;
+}
+
+.notif-body:hover {
+  cursor: pointer;
+}
+
+.media.notif-body {
+  padding: 15px;
+  margin-top: 0;
+}
