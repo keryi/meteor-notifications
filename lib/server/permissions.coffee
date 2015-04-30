@@ -10,4 +10,4 @@ Notifications.allow
     doc.owner == userId && fieldNames.length == 1 && fieldNames[0] == 'read'
 
   remove: (userId, doc) ->
-    doc.owner == userId
+    doc.owner == userId || isAdmin userId
