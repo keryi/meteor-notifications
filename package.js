@@ -32,7 +32,8 @@ Package.onUse(function(api) {
 
   api.addFiles([
     'lib/server/permissions.coffee',
-    'lib/server/publications.coffee'
+    'lib/server/publications.coffee',
+    'lib/server/methods.coffee'
   ], 'server');
 });
 
